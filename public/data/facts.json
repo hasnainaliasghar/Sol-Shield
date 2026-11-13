@@ -1,0 +1,45 @@
+{
+  "facts": [
+    {
+      "id": "air-per-day",
+      "topic": "Oxygen",
+      "text": "An astronaut uses about 0.84 kg of oxygen each day. That is why the air supply matters so much.",
+      "sourceName": "NASA Baseline Values and Assumptions Document (BVAD) 2015",
+      "sourceUrl": "https://www.nasa.gov/wp-content/uploads/2016/10/bvad2015_revb_tagged_0.pdf",
+      "verifiedOn": "2024-11-01"
+    },
+    {
+      "id": "food-per-day",
+      "topic": "Food",
+      "text": "Astronauts eat about 1.8 kg of food per day on long missions. Good nutrition keeps them strong.",
+      "sourceName": "NASA Baseline Values and Assumptions Document (BVAD) 2015",
+      "sourceUrl": "https://www.nasa.gov/wp-content/uploads/2016/10/bvad2015_revb_tagged_0.pdf",
+      "verifiedOn": "2024-11-01"
+    },
+    {
+      "id": "moon-radiation",
+      "topic": "Radiation",
+      "text": "On the Moon, astronauts get more radiation than on Earth. The Moon has no thick air to block it.",
+      "sourceName": "NASA: How Apollo Astronauts Survived the Journey to the Moon",
+      "sourceUrl": "https://www.nasa.gov/feature/goddard/2021/how-apollo-astronauts-survived-the-journey-to-the-moon",
+      "verifiedOn": "2024-11-01"
+    },
+    {
+      "id": "radiation-limit",
+      "topic": "Radiation Limits",
+      "text": "NASA limits how much radiation astronauts can get in their careers. Too much radiation harms the body.",
+      "sourceName": "NASA Astronaut Radiation Health",
+      "sourceUrl": "https://www.nasa.gov/humans-in-space/astronaut-health/radiation/",
+      "verifiedOn": "2024-11-01"
+    },
+    {
+      "id": "solar-flare-class",
+      "topic": "Solar Flares",
+      "text": "Solar flares are sorted by size: A, B, C, M, and X. X-class flares are the biggest and most dangerous.",
+      "sourceName": "NASA Space Weather",
+      "sourceUrl": "https://www.nasa.gov/science-research/heliophysics/how-nasa-monitors-space-weather/",
+      "verifiedOn": "2024-11-01"
+    }
+  ]
+}
+

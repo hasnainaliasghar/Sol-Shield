@@ -1,0 +1,217 @@
+{
+  "archived": true,
+  "fetchedAt": "2026-11-13T13:20:50.621Z",
+  "source": "NASA DONKI (CCMC) via api.nasa.gov/DONKI/notifications",
+  "sourceUrl": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/",
+  "note": "Fetched from /DONKI/notifications endpoint (FLR type). The /DONKI/FLR endpoint returned 404 at time of fetch (2026-11-13); notifications endpoint contains same alert data.",
+  "events": [
+    {
+      "id": "storm-001",
+      "tier": 1,
+      "flare": {
+        "flrID": "20120123-AL-001",
+        "classType": "M8.7",
+        "beginTime": "2012-01-23T03:38Z",
+        "peakTime": "2012-01-23T04:15Z",
+        "sourceLocation": "N28W20",
+        "activeRegionNum": null,
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/96/1"
+      },
+      "sep": null,
+      "kidTitle": "A medium M8.7 solar flare (2012-01-23)",
+      "kidStory": "The Sun sent out a M8.7 class flare on 2012-01-23. Some energetic particles were released."
+    },
+    {
+      "id": "storm-002",
+      "tier": 1,
+      "flare": {
+        "flrID": "2012-07-28T20:45:00-FLR-001.",
+        "classType": "M6.2",
+        "beginTime": "2012-07-28T20:45Z",
+        "peakTime": "2012-07-28T20:55Z",
+        "sourceLocation": "S20E49",
+        "activeRegionNum": null,
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/952/1"
+      },
+      "sep": null,
+      "kidTitle": "A medium M6.2 solar flare (2012-07-28)",
+      "kidStory": "The Sun sent out a M6.2 class flare on 2012-07-28. Some energetic particles were released."
+    },
+    {
+      "id": "storm-003",
+      "tier": 1,
+      "flare": {
+        "flrID": "2024-05-04T23:28:00-FLR-001.",
+        "classType": "M9.0",
+        "beginTime": "2024-05-04T23:28Z",
+        "peakTime": "2024-05-04T23:48Z",
+        "sourceLocation": "N26W17",
+        "activeRegionNum": "13663",
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/30454/1"
+      },
+      "sep": null,
+      "kidTitle": "A medium M9.0 solar flare (2024-05-04)",
+      "kidStory": "The Sun sent out a M9.0 class flare from sunspot AR13663 on 2024-05-04. Some energetic particles were released."
+    },
+    {
+      "id": "storm-004",
+      "tier": 1,
+      "flare": {
+        "flrID": "2024-05-11T14:46:00-FLR-001.",
+        "classType": "M8.8",
+        "beginTime": "2024-05-11T14:46Z",
+        "peakTime": "2024-05-11T15:25Z",
+        "sourceLocation": "S17W53",
+        "activeRegionNum": "13664",
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/30732/1"
+      },
+      "sep": null,
+      "kidTitle": "A medium M8.8 solar flare (2024-05-11)",
+      "kidStory": "The Sun sent out a M8.8 class flare from sunspot AR13664 on 2024-05-11. Some energetic particles were released."
+    },
+    {
+      "id": "storm-005",
+      "tier": 2,
+      "flare": {
+        "flrID": "20120127-AL-001",
+        "classType": "X1.8",
+        "beginTime": "2012-01-27T18:12Z",
+        "peakTime": "2012-01-27T19:00Z",
+        "sourceLocation": "N31W90",
+        "activeRegionNum": null,
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/138/1"
+      },
+      "sep": null,
+      "kidTitle": "A strong X1.8 solar flare (2012-01-27)",
+      "kidStory": "The Sun sent out a X1.8 class flare on 2012-01-27. Fast particles followed and reached dangerous levels."
+    },
+    {
+      "id": "storm-006",
+      "tier": 2,
+      "flare": {
+        "flrID": "2017-09-06T09:03:00-FLR-001.",
+        "classType": "X2.2",
+        "beginTime": "2017-09-06T09:03Z",
+        "peakTime": "2017-09-06T09:10Z",
+        "sourceLocation": "S10W26",
+        "activeRegionNum": "12673",
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/13009/1"
+      },
+      "sep": null,
+      "kidTitle": "A strong X2.2 solar flare (2017-09-06)",
+      "kidStory": "The Sun sent out a X2.2 class flare from sunspot AR12673 on 2017-09-06. Fast particles followed and reached dangerous levels."
+    },
+    {
+      "id": "storm-007",
+      "tier": 2,
+      "flare": {
+        "flrID": "2024-05-08T01:33:00-FLR-001.",
+        "classType": "X1.0",
+        "beginTime": "2024-05-08T01:33Z",
+        "peakTime": "2024-05-08T01:41Z",
+        "sourceLocation": "N25W60",
+        "activeRegionNum": "13663",
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/30550/1"
+      },
+      "sep": null,
+      "kidTitle": "A strong X1.0 solar flare (2024-05-08)",
+      "kidStory": "The Sun sent out a X1.0 class flare from sunspot AR13663 on 2024-05-08. Fast particles followed and reached dangerous levels."
+    },
+    {
+      "id": "storm-008",
+      "tier": 2,
+      "flare": {
+        "flrID": "2024-05-12T16:11:00-FLR-001.",
+        "classType": "X1.0",
+        "beginTime": "2024-05-12T16:11Z",
+        "peakTime": "2024-05-12T16:26Z",
+        "sourceLocation": "S21W75",
+        "activeRegionNum": "13664",
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/30762/1"
+      },
+      "sep": null,
+      "kidTitle": "A strong X1.0 solar flare (2024-05-12)",
+      "kidStory": "The Sun sent out a X1.0 class flare from sunspot AR13664 on 2024-05-12. Fast particles followed and reached dangerous levels."
+    },
+    {
+      "id": "storm-009",
+      "tier": 2,
+      "flare": {
+        "flrID": "2024-05-31T21:52:00-FLR-001.",
+        "classType": "X1.1",
+        "beginTime": "2024-05-31T21:52Z",
+        "peakTime": "2024-05-31T22:03Z",
+        "sourceLocation": "S17E34",
+        "activeRegionNum": "13697",
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/31250/1"
+      },
+      "sep": null,
+      "kidTitle": "A strong X1.1 solar flare (2024-05-31)",
+      "kidStory": "The Sun sent out a X1.1 class flare from sunspot AR13697 on 2024-05-31. Fast particles followed and reached dangerous levels."
+    },
+    {
+      "id": "storm-010",
+      "tier": 3,
+      "flare": {
+        "flrID": "20120307-AL-001",
+        "classType": "X5.4",
+        "beginTime": null,
+        "peakTime": "2012-03-07T00:43Z",
+        "sourceLocation": "N17E28",
+        "activeRegionNum": null,
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/199/1"
+      },
+      "sep": null,
+      "kidTitle": "A giant X5.4 solar flare (2012-03-07)",
+      "kidStory": "The Sun sent out a X5.4 class flare on 2012-03-07. Fast particles followed and reached dangerous levels."
+    },
+    {
+      "id": "storm-011",
+      "tier": 3,
+      "flare": {
+        "flrID": "2017-09-06T11:54:00-FLR-001.",
+        "classType": "X9.3",
+        "beginTime": "2017-09-06T11:54Z",
+        "peakTime": "2017-09-06T12:02Z",
+        "sourceLocation": null,
+        "activeRegionNum": "12673",
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/13012/1"
+      },
+      "sep": null,
+      "kidTitle": "A giant X9.3 solar flare (2017-09-06)",
+      "kidStory": "The Sun sent out a X9.3 class flare from sunspot AR12673 on 2017-09-06. Fast particles followed and reached dangerous levels."
+    },
+    {
+      "id": "storm-012",
+      "tier": 3,
+      "flare": {
+        "flrID": "2017-09-10T15:35:00-FLR-001.",
+        "classType": "X8.2",
+        "beginTime": "2017-09-10T15:35Z",
+        "peakTime": "2017-09-10T16:06Z",
+        "sourceLocation": "S08W88",
+        "activeRegionNum": "12673",
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/13103/1"
+      },
+      "sep": null,
+      "kidTitle": "A giant X8.2 solar flare (2017-09-10)",
+      "kidStory": "The Sun sent out a X8.2 class flare from sunspot AR12673 on 2017-09-10. Fast particles followed and reached dangerous levels."
+    },
+    {
+      "id": "storm-013",
+      "tier": 3,
+      "flare": {
+        "flrID": "2024-05-11T01:10:00-FLR-001.",
+        "classType": "X5.8",
+        "beginTime": "2024-05-11T01:10Z",
+        "peakTime": "2024-05-11T01:23Z",
+        "sourceLocation": "S17W47",
+        "activeRegionNum": null,
+        "link": "https://ccmc.gsfc.nasa.gov/DONKI/view/Alert/30713/1"
+      },
+      "sep": null,
+      "kidTitle": "A giant X5.8 solar flare (2024-05-11)",
+      "kidStory": "The Sun sent out a X5.8 class flare on 2024-05-11. Fast particles followed and reached dangerous levels."
+    }
+  ]
+}

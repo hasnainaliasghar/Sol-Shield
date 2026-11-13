@@ -1,0 +1,196 @@
+/* base.css — Reset, variables, global styles */
+/* Mobile-first at 360px. WCAG AA contrast. System fonts only. */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Color palette — WCAG AA compliant */
+  --color-bg: #0a0e1a;
+  --color-surface: #121930;
+  --color-surface2: #1a2340;
+  --color-border: #2a3550;
+  --color-text: #e8ecf5;
+  --color-text-dim: #8a98b8;
+  --color-accent: #4a9eff;
+  --color-accent-hover: #6ab4ff;
+  --color-success: #4caf80;
+  --color-warning: #f0a830;
+  --color-danger: #e84040;
+  --color-air: #4a9eff;
+  --color-food: #4caf80;
+  --color-shield: #c084fc;
+  --color-dose-safe: #4caf80;
+  --color-dose-okay: #f0a830;
+  --color-dose-high: #e87040;
+  --color-dose-danger: #e84040;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* Touch targets min 44px */
+  --touch-min: 44px;
+
+  /* Font */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+html, body {
+  min-height: 100%;
+  min-width: 360px;
+}
+
+#app {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+/* Typography */
+h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.5px; }
+h2 { font-size: 1.4rem; font-weight: 700; }
+h3 { font-size: 1.1rem; font-weight: 600; }
+p  { margin-bottom: var(--space-sm); }
+
+a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+a:hover, a:focus {
+  color: var(--color-accent-hover);
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--touch-min);
+  padding: var(--space-sm) var(--space-lg);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s, transform 0.1s;
+  text-decoration: none;
+}
+.btn:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+.btn:active { transform: scale(0.97); }
+
+.btn-primary {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+.btn-primary:hover { background-color: var(--color-accent-hover); }
+
+.btn-secondary {
+  background-color: var(--color-surface2);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+.btn-secondary:hover { background-color: var(--color-border); }
+
+.btn-danger {
+  background-color: var(--color-danger);
+  color: #fff;
+}
+.btn-sm {
+  min-height: 36px;
+  padding: var(--space-xs) var(--space-md);
+  font-size: 0.875rem;
+}
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Cards */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+/* Screen container */
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-md) 0;
+  gap: var(--space-md);
+}
+
+/* Hidden utility */
+.hidden { display: none !important; }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus ring for keyboard users */
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: var(--space-md);
+}
+.modal {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: var(--space-lg);
+  max-width: 400px;
+  width: 100%;
+}
+.modal h2 { margin-bottom: var(--space-md); }
+.modal .btn-row {
+  display: flex;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+}
+

@@ -1,0 +1,19 @@
+{
+  "name": "sol-shield",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "data:build": "node --env-file=.env scripts/build-storms.mjs",
+    "data:verify": "node scripts/verify-data.mjs",
+    "sim": "node scripts/balance-sim.mjs"
+  },
+  "devDependencies": {
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0"
+  }
+}

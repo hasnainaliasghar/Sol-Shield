@@ -1,0 +1,44 @@
+{
+  "terms": [
+    {
+      "id": "sol",
+      "term": "Sol",
+      "definition": "One day on another world. A Moon sol is about 24 hours long."
+    },
+    {
+      "id": "solar-flare",
+      "term": "Solar flare",
+      "definition": "A sudden flash of light and energy from the Sun."
+    },
+    {
+      "id": "particle-storm",
+      "term": "Particle storm",
+      "definition": "Fast tiny particles from the Sun that can harm living things."
+    },
+    {
+      "id": "radiation-dose",
+      "term": "Radiation dose",
+      "definition": "How much radiation the body has taken in. Lower is better."
+    },
+    {
+      "id": "shielding",
+      "term": "Shielding",
+      "definition": "Material that blocks radiation. Water and soil work well."
+    },
+    {
+      "id": "power-block",
+      "term": "Power block",
+      "definition": "One unit of the outpost's limited electricity supply each sol."
+    },
+    {
+      "id": "comm-delay",
+      "term": "Communication delay",
+      "definition": "The time a message takes to travel between Earth and the outpost."
+    },
+    {
+      "id": "mission-control",
+      "term": "Mission Control",
+      "definition": "The team on Earth that helps astronauts plan and stay safe."
+    }
+  ]
+}
